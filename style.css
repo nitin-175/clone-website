@@ -1,0 +1,233 @@
+body{
+    margin: 0rem;
+    padding: 0rem;
+    font-family: sans-serif;
+}
+
+.navbar{
+    height: 5rem;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 3rem;
+}
+.navbar a{
+    margin-left: 3rem;
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+}
+
+.navbar .pulse{
+    border-radius: 25px;
+    border: none;
+    height: 2.6rem;
+    width: 8.8rem;
+    background-color: rgb(32, 23, 80);
+    color: white;
+    font-size: 15px;
+}
+
+.pulse:hover{
+    color: black;
+    background-image:     linear-gradient(
+       to right, 
+       #E7484F,
+       #F68B1D, 
+       #FCED00,
+       #009E4F,
+       #00AAC3,
+       #732982
+     );
+   animation:slidebg 2s linear infinite;
+ }
+
+ @keyframes slidebg {
+    to {
+      background-position:100px;
+    }
+  }
+
+
+
+.stickers{
+    margin-top: -2rem;
+   
+
+}
+
+.stickers img{
+    height: 200px;
+    position: absolute;
+}
+
+.stick1{
+    transform: rotate(16deg);
+    
+}
+.stick2{
+    transform: rotate(42deg);
+    top: 60%;
+    left: 10%;
+}
+.stick3{
+    transform: rotate(299deg);
+    left: 60%;
+}
+.stick4{
+    transform: rotate(90deg);
+    left: 80%;
+    top: 50%;
+}
+.stick5{
+    transform: rotate(304deg);
+    left: 25%;
+    top: 40%;
+}
+
+
+
+
+
+
+
+
+.logo{
+    position: absolute;
+   width: 100px;
+   padding-right:80%;
+   margin-top: 1.8rem;
+   padding-left: 2rem;
+}
+
+.main{
+    text-align: center;
+    font-family: "Bona Nova SC", serif;
+    font-weight: 400;
+    font-size: 20px;
+    font-style: normal;
+    margin-top: 5rem;
+}
+
+.main button{
+    border-radius: 25px;
+    border: none;
+    height: 2.8rem;
+    width: 10rem;
+    background-color: rgb(32, 23, 80);
+    color: white;
+    font-size: 15px;
+    background: linear-gradient(to right,#0C1B33,#0c1b339b);
+}
+
+.main button:active{
+    transform: translateY(.15rem);
+}
+
+.main p{
+    margin-top: -0.2rem;
+    font-size: 12px;
+}
+
+.iphone{
+    margin-top: 5rem;
+    height: 700px;
+    position: absolute;
+    left: 27%;
+}
+
+
+.text{
+    margin-left: 12rem;
+    margin-top: 22rem;
+    font-family: "Bona Nova SC", serif;
+    font-size: 39px;
+    font-weight: bolder;
+    line-height: 7px;
+    color: #5f216b;
+}
+
+.text2{
+    position: absolute;
+    bottom: -20%;
+    left: 55%;
+    margin-left: 12rem;
+    margin-top: 22rem;
+    font-family: sans-serif ;
+    font-size: 20px;
+    color: #732982;
+}
+
+.possibilities{
+    
+}
+
+.possibilities p{
+    font-size: 80px;
+    font-family: "Bona Nova SC",serif;
+    text-align: center;
+    margin-top: 25rem;
+    line-height: 65px;
+    color: #37193d;
+}
+
+.a1{
+    position: absolute;
+    background-color: #665a9f7c;
+    height: 550px;
+    width: 300px;
+    border-radius: 30px;
+    left: 20%;
+}
+.a2{
+    position: absolute;
+    background-color: #00AAC3;
+    border-radius: 30px;
+    height: 250px;
+    width: 650px;
+    left: 41%;
+}
+.a3{
+   position: absolute; 
+   background-color: rgb(220, 164, 174);
+   border-radius: 30px;
+   height: 250px;
+    width: 250px;
+    left: 67%;
+    bottom: -185%;
+}
+.a4{
+   position: absolute;
+   background-color: #F68B1D;
+   border-radius: 30px; 
+   height: 250px;
+    width: 370px;
+    left: 41%;
+    bottom: -185%;
+}
+.a5{
+   position: absolute;
+   background-color: #674e35; 
+   height: 200px;
+   width: 700px;
+   border-radius: 30px;
+    left: 20%;
+    bottom: -217%;
+}
+.a6{
+   position: absolute; 
+   background-color: #e78320;
+   border-radius: 30px;
+   height: 200px;
+   width: 250px;
+   left: 67%;
+    bottom: -217%;
+}
+
+
+
+
+
+
+
